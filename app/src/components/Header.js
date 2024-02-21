@@ -1,7 +1,7 @@
 import logo from '../icon.png';
 export default function Header() {
     return (<><div className="header-brand">
-    <img className="header-icon" src={logo}/>
+    <img className="header-icon" src={logo} alt="Logo"/>
     <div className="title">Flavor Fusion</div>
     </div>
   <ul className="header-list">
