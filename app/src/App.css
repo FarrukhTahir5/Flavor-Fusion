@@ -25,6 +25,8 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .App-logo {
@@ -65,8 +67,6 @@
 .Header{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  margin-left: 5%;
-  margin-right: 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -123,4 +123,54 @@ a:hover{
   font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
+}
+.main-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.left-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: var(--accent-color);
+  height: 30rem;
+  border-radius: 10%;
+  width:100%;
+}
+
+.right-section{
+  width: 100%;
+}
+
+.heading-main{
+  font-size: 26px;
+  
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.left-section>button{
+  width: 150px;
+  padding: 10px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--button-primary-color);
+  color: white;
+  font-size: medium;
+  font-weight: 700;
+  margin-left: 20rem;
+}
+.main-text{
+  text-align: left;
+  margin-left: 2rem;
+}
+.writing-simple{
+  height: 5rem;
+  display: flex;
+  align-items: center;
 }
